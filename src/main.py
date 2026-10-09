@@ -1,4 +1,4 @@
-from utils import square, is_even, celsius_to_fahrenheit, greet
+from utils import square, is_even, celsius_to_fahrenheit
 
 
 number = float(input("Enter a number: "))
@@ -11,6 +11,3 @@ else:
     print("Even: False")
 
 print("Fahrenheit:", celsius_to_fahrenheit(number))
-
-name = input("Enter your name: ")
-print(greet(name))
